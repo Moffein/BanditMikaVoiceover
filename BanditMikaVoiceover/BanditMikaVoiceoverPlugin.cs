@@ -61,10 +61,9 @@ namespace BanditMikaVoiceover
         private void OnLoad()
         {
             bool foundSkin = false;
-            SkinDef[] commandoSkins = SkinCatalog.FindSkinsForBody(BodyCatalog.FindBodyIndex("CommandoBody"));
-            foreach (SkinDef skinDef in commandoSkins)
+            SkinDef[] banditSkins = SkinCatalog.FindSkinsForBody(BodyCatalog.FindBodyIndex("Bandit2Body"));
+            foreach (SkinDef skinDef in banditSkins)
             {
-                //nameToken is "ALICKET_SKIN_BAHYCSKINDEFINITION_NAME"
                 if (skinDef.name == "BanditMikaDef")
                 {
                     foundSkin = true;
