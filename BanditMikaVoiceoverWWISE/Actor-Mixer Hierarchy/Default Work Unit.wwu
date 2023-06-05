@@ -1,0 +1,1748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BA838EF2-62B4-44D6-A3AE-5A62D343EDFB}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{BA838EF2-62B4-44D6-A3AE-5A62D343EDFB}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Master Mixer" ID="{40A98A71-E1BA-40F7-A22C-4600F1D3FF86}" ShortID="228779290">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{5DD3E2CB-227F-4C00-B40F-C3900F0FF061}" ShortID="710295769">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Volume_SFX" ID="{09C78159-2B75-4079-86FF-FF56F0E0FCCE}" WorkUnitID="{78F83CAD-8084-4D3A-897D-2E1193FDB923}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{49D79D5D-1D00-4EA7-8679-D05E1937D965}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="SFX Mixer" ID="{7FD2CAC0-7997-4DF9-B79C-D74F971F1190}" ShortID="134174659">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<ActorMixer Name="Voiceover" ID="{DC745717-6728-476F-AEFB-989AAA7B13C2}" ShortID="848772778">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="VoiceAttenuation" ID="{F2E97C90-B979-4868-B159-F0ECF1597C2C}" WorkUnitID="{3E798053-B736-4804-B4B4-6FF919B6290D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Defeat" ID="{221D1842-BA59-4C02-8944-2F7DBD4AC6BE}" ShortID="987924548">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Mika_Battle_Retire" ID="{012BFD2E-25A9-4AE4-A822-047B6C167783}" ShortID="463435940">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Battle_Retire" ID="{C27AB1CD-BAFA-4000-9D94-6BE8839F3471}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Battle_Retire.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="85948828"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Battle_Retire" ID="{C27AB1CD-BAFA-4000-9D94-6BE8839F3471}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_Tactic_Defeat_1" ID="{2F2065AA-2B8C-4860-9C99-F83DAB12C424}" ShortID="43050869">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Tactic_Defeat_1" ID="{1E2E470D-8CE8-438E-AA78-72D0998ED068}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Tactic_Defeat_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="517067559"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Tactic_Defeat_1" ID="{1E2E470D-8CE8-438E-AA78-72D0998ED068}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_Tactic_Defeat_2" ID="{0401E846-FAC7-444F-90EC-B84F588CC80F}" ShortID="622792285">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Tactic_Defeat_2" ID="{212CF1B4-1F44-4163-A35A-97B8FCC85C56}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Tactic_Defeat_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="286773621"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Tactic_Defeat_2" ID="{212CF1B4-1F44-4163-A35A-97B8FCC85C56}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Levelup" ID="{645845C1-9BB0-4A0F-ACA5-662156F63587}" ShortID="573194682">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Mika_Growup_1" ID="{719EB140-72E6-4BA3-ADAC-37191B10E435}" ShortID="971958758">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Growup_1" ID="{FE60BA85-818F-4C8C-80E8-46ED0077D34B}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Growup_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="538516653"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Growup_1" ID="{FE60BA85-818F-4C8C-80E8-46ED0077D34B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_Growup_2" ID="{FDB3994A-24EA-409C-9576-886239CC7F6F}" ShortID="206421078">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Growup_2" ID="{DC526A88-79A8-4315-84A7-EC36E0F08083}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Growup_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="79881269"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Growup_2" ID="{DC526A88-79A8-4315-84A7-EC36E0F08083}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_Growup_3" ID="{F30DC800-042B-45DA-AEF6-82DDC6A55D07}" ShortID="766549545">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Growup_3" ID="{C25341BB-AAD9-444C-A2F0-33AAF3B9EF6E}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Growup_3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1055651403"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Growup_3" ID="{C25341BB-AAD9-444C-A2F0-33AAF3B9EF6E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_Growup_4" ID="{9080A090-8A11-4C7D-B70D-2F10AA236E7F}" ShortID="398073681">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Growup_4" ID="{1CDA49DE-39B4-4BFB-AAC7-5C2A93DF5EC8}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Growup_4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="137677625"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Growup_4" ID="{1CDA49DE-39B4-4BFB-AAC7-5C2A93DF5EC8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Lobby" ID="{FBC85B72-FB77-4F72-B04B-FC3D9B78F14F}" ShortID="203700682">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Mika_Lobby_1" ID="{0FA97C3D-BFF3-435F-B081-B8F58AF4ADCE}" ShortID="909017051">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Lobby_1" ID="{497B5571-DFD2-44BC-BE7C-052345BA2CA8}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Lobby_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="181191708"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Lobby_1" ID="{497B5571-DFD2-44BC-BE7C-052345BA2CA8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_Lobby_2" ID="{35F33B4D-C933-4FB4-8509-6A03178F25BA}" ShortID="492905291">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Lobby_2" ID="{A708E700-B841-4D63-92DE-9E91F767D601}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Lobby_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="613008783"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Lobby_2" ID="{A708E700-B841-4D63-92DE-9E91F767D601}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_Lobby_3" ID="{2EF854BA-C643-4F4F-881C-FC1072F27EB7}" ShortID="638351077">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Lobby_3" ID="{EF8B7A05-C5A9-4D1F-85C1-E5D3332D6FD8}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Lobby_3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="493269790"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Lobby_3" ID="{EF8B7A05-C5A9-4D1F-85C1-E5D3332D6FD8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_Lobby_4" ID="{66C6516A-7982-43AA-ABEC-34FAE59D6CCD}" ShortID="930048631">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Lobby_4" ID="{674315A6-6E7B-40CF-AC49-B520A2B63BEA}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Lobby_4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="876722264"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Lobby_4" ID="{674315A6-6E7B-40CF-AC49-B520A2B63BEA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_Lobby_5" ID="{47778D72-4BF7-4A14-8D99-4CD32B127195}" ShortID="184815198">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Lobby_5" ID="{D9B9026D-497A-421C-9F69-69CE758362A4}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Lobby_5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="254517794"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Lobby_5" ID="{D9B9026D-497A-421C-9F69-69CE758362A4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_LogIn_1" ID="{8451E51A-BF74-44E4-8DEE-8562C571D2ED}" ShortID="153244776">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_LogIn_1" ID="{301D100D-AC44-47AA-9527-FE93D2D537DE}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_LogIn_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="673715338"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_LogIn_1" ID="{301D100D-AC44-47AA-9527-FE93D2D537DE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_LogIn_2" ID="{BBAA59CC-4F6A-4919-A04B-40DADBDF392D}" ShortID="816416802">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_LogIn_2" ID="{F53C9897-7CC7-47E6-8DF2-FB3AD3432076}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_LogIn_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="7600788"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_LogIn_2" ID="{F53C9897-7CC7-47E6-8DF2-FB3AD3432076}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="Mika_Season_Birthday" ID="{66EE5379-5216-4D8A-B0E2-6E095F1312D1}" ShortID="630200761">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mika_Season_Birthday" ID="{B9562B39-32A4-484A-A482-8D4D9543CC1F}">
+													<Language>SFX</Language>
+													<AudioFile>Mika_Season_Birthday.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="678843914"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mika_Season_Birthday" ID="{B9562B39-32A4-484A-A482-8D4D9543CC1F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mika_Season_Halloween" ID="{D883DCF4-B664-4BE0-B21A-34B149680979}" ShortID="792041825">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mika_Season_Halloween" ID="{B11E8D06-0EC7-42D3-92F1-169776DDD252}">
+													<Language>SFX</Language>
+													<AudioFile>Mika_Season_Halloween.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="813798986"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mika_Season_Halloween" ID="{B11E8D06-0EC7-42D3-92F1-169776DDD252}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mika_Season_NewYear" ID="{3BF04A00-6D3C-4F3F-A143-35420CD51E98}" ShortID="772665276">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mika_Season_NewYear" ID="{18955C82-EFB7-4793-A296-9D609948D058}">
+													<Language>SFX</Language>
+													<AudioFile>Mika_Season_NewYear.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="180435408"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mika_Season_NewYear" ID="{18955C82-EFB7-4793-A296-9D609948D058}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mika_Season_Xmas" ID="{B887DA32-70B7-44A2-AD27-B551F16DBCA4}" ShortID="558232959">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mika_Season_Xmas" ID="{08F3E65E-5153-4B03-BA9C-CBCE50A48AE6}">
+													<Language>SFX</Language>
+													<AudioFile>Mika_Season_Xmas.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="585911945"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mika_Season_Xmas" ID="{08F3E65E-5153-4B03-BA9C-CBCE50A48AE6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mika_Title" ID="{E3A820E1-5C08-4067-9149-B7813848A890}" ShortID="17301105">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mika_Title" ID="{95A5B159-1880-45EF-A9AF-782A3FEFDBF9}">
+													<Language>SFX</Language>
+													<AudioFile>Mika_Title.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="370460325"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mika_Title" ID="{95A5B159-1880-45EF-A9AF-782A3FEFDBF9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mika_Battle_Buffed_1" ID="{60FEB76B-B06A-416A-8C0B-3D671B3299B5}" ShortID="565039952">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mika_Battle_Buffed_1" ID="{818A627D-E2E0-422A-B2AA-0B7E68A36C36}">
+													<Language>SFX</Language>
+													<AudioFile>Mika_Battle_Buffed_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="840225805"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mika_Battle_Buffed_1" ID="{818A627D-E2E0-422A-B2AA-0B7E68A36C36}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mika_Battle_BuffSelf_1" ID="{2F94CE4E-010E-4AA3-8CE8-1315AF1632F8}" ShortID="74988789">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mika_Battle_BuffSelf_1" ID="{805AC6B5-B02E-403A-BB17-A156C718574E}">
+													<Language>SFX</Language>
+													<AudioFile>Mika_Battle_BuffSelf_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="826127979"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mika_Battle_BuffSelf_1" ID="{805AC6B5-B02E-403A-BB17-A156C718574E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mika_Battle_Covered_1" ID="{9AC54F7E-FB9C-4B36-8679-BB20A90831DF}" ShortID="71960381">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mika_Battle_Covered_1" ID="{B0481E48-EFBF-43D5-B19D-E9BB0E409599}">
+													<Language>SFX</Language>
+													<AudioFile>Mika_Battle_Covered_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="52505867"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mika_Battle_Covered_1" ID="{B0481E48-EFBF-43D5-B19D-E9BB0E409599}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mika_Battle_Defense_1" ID="{70C77582-30CA-4A34-8270-586D9521F916}" ShortID="896788327">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mika_Battle_Defense_1" ID="{DA1FC6A7-8533-4AF8-AE1A-FFBC67FA5EFF}">
+													<Language>SFX</Language>
+													<AudioFile>Mika_Battle_Defense_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="120849010"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mika_Battle_Defense_1" ID="{DA1FC6A7-8533-4AF8-AE1A-FFBC67FA5EFF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mika_Battle_Move_1" ID="{B0E846A4-52F5-40BE-8689-66F5B3042028}" ShortID="163766199">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mika_Battle_Move_1" ID="{7E36BADE-6974-405E-9AC9-1900D0C4C050}">
+													<Language>SFX</Language>
+													<AudioFile>Mika_Battle_Move_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="928298699"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mika_Battle_Move_1" ID="{7E36BADE-6974-405E-9AC9-1900D0C4C050}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mika_Battle_Move_2" ID="{1BBA127D-DB27-4DCB-B8DF-608B79563944}" ShortID="510420415">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mika_Battle_Move_2" ID="{FFCDE36D-211A-4417-BCB2-5729E0128133}">
+													<Language>SFX</Language>
+													<AudioFile>Mika_Battle_Move_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="94661053"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mika_Battle_Move_2" ID="{FFCDE36D-211A-4417-BCB2-5729E0128133}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mika_Battle_Recovery_1" ID="{EEAEF666-EAA7-404E-8AA9-70D0A5C77341}" ShortID="52910417">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mika_Battle_Recovery_1" ID="{FD63C5A2-AC8D-43D8-B032-8FCC6AE84951}">
+													<Language>SFX</Language>
+													<AudioFile>Mika_Battle_Recovery_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="316360396"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mika_Battle_Recovery_1" ID="{FD63C5A2-AC8D-43D8-B032-8FCC6AE84951}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mika_Battle_TacticalAction_1" ID="{44235EE3-1F03-42D5-B4B8-B87F4314BFDE}" ShortID="943902335">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mika_Battle_TacticalAction_1" ID="{70E87C9C-F0FC-476B-8361-542C251D3681}">
+													<Language>SFX</Language>
+													<AudioFile>Mika_Battle_TacticalAction_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="968586974"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mika_Battle_TacticalAction_1" ID="{70E87C9C-F0FC-476B-8361-542C251D3681}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mika_Cafe_monolog_1" ID="{C97A801A-B395-4EBD-9BD9-A1D20FADE157}" ShortID="224853561">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mika_Cafe_monolog_1" ID="{167ECC03-4471-45F5-80FA-A97B0D2D4C91}">
+													<Language>SFX</Language>
+													<AudioFile>Mika_Cafe_monolog_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="334697127"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mika_Cafe_monolog_1" ID="{167ECC03-4471-45F5-80FA-A97B0D2D4C91}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mika_Cafe_monolog_2" ID="{7D3A0F85-D458-41EB-92E8-02BE2B18FC10}" ShortID="323429245">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mika_Cafe_monolog_2" ID="{995D3DAB-1F77-45CF-9E18-D8F9D9E70671}">
+													<Language>SFX</Language>
+													<AudioFile>Mika_Cafe_monolog_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="711303193"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mika_Cafe_monolog_2" ID="{995D3DAB-1F77-45CF-9E18-D8F9D9E70671}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mika_Cafe_monolog_3" ID="{375692CB-28A7-4647-A924-49A2D51EC62E}" ShortID="372095541">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mika_Cafe_monolog_3" ID="{8C95FCF4-E8A7-4FC7-893A-50BFF43DA53D}">
+													<Language>SFX</Language>
+													<AudioFile>Mika_Cafe_monolog_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="517765184"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mika_Cafe_monolog_3" ID="{8C95FCF4-E8A7-4FC7-893A-50BFF43DA53D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mika_Cafe_monolog_4" ID="{344A821E-397A-4DE7-8E30-CFA71E648257}" ShortID="537349789">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mika_Cafe_monolog_4" ID="{55FFB44D-2B47-4EA5-88A0-9D5410CEC4F0}">
+													<Language>SFX</Language>
+													<AudioFile>Mika_Cafe_monolog_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="535417354"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mika_Cafe_monolog_4" ID="{55FFB44D-2B47-4EA5-88A0-9D5410CEC4F0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mika_Cafe_monolog_5" ID="{32C5DE43-F81B-4D89-B48C-E7B88FA0324A}" ShortID="114397465">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mika_Cafe_monolog_5" ID="{C9778CCD-8A32-4334-A302-DC6B92B2CD3F}">
+													<Language>SFX</Language>
+													<AudioFile>Mika_Cafe_monolog_5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="542422953"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mika_Cafe_monolog_5" ID="{C9778CCD-8A32-4334-A302-DC6B92B2CD3F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mika_CommonSkill" ID="{9F372156-88E6-44EA-9163-1ADC406C8AB0}" ShortID="280928860">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mika_CommonSkill" ID="{ABBE16A6-4A1E-4C05-B133-4BCB45F5A325}">
+													<Language>SFX</Language>
+													<AudioFile>Mika_CommonSkill.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="124718722"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mika_CommonSkill" ID="{ABBE16A6-4A1E-4C05-B133-4BCB45F5A325}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mika_ExWeapon_Get" ID="{A571A29F-69F9-4F81-93A0-B2476D159E56}" ShortID="990562274">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mika_ExWeapon_Get" ID="{09BC1598-5AFB-44BD-94EF-D38FBF6315EE}">
+													<Language>SFX</Language>
+													<AudioFile>Mika_ExWeapon_Get.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="961138296"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mika_ExWeapon_Get" ID="{09BC1598-5AFB-44BD-94EF-D38FBF6315EE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mika_Formation_In_1" ID="{1CF6F21D-3101-4636-AFF4-35B64F218E03}" ShortID="984053922">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mika_Formation_In_1" ID="{804EA99A-7E63-45DF-8BCA-2D66892B6370}">
+													<Language>SFX</Language>
+													<AudioFile>Mika_Formation_In_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="926679332"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mika_Formation_In_1" ID="{804EA99A-7E63-45DF-8BCA-2D66892B6370}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mika_Formation_In_2" ID="{3774269A-3B9B-41CD-A42E-0986C221B674}" ShortID="529635306">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mika_Formation_In_2" ID="{09D37A27-CC54-4D9F-9477-0A7A002A6AFF}">
+													<Language>SFX</Language>
+													<AudioFile>Mika_Formation_In_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="562417910"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mika_Formation_In_2" ID="{09D37A27-CC54-4D9F-9477-0A7A002A6AFF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mika_Formation_Select" ID="{A2A6CC78-2CBF-4DFB-B72B-CE50B2FF3FAB}" ShortID="861782160">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mika_Formation_Select" ID="{AE32BA2F-DF5F-4463-939B-B30E11137006}">
+													<Language>SFX</Language>
+													<AudioFile>Mika_Formation_Select.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="526753950"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mika_Formation_Select" ID="{AE32BA2F-DF5F-4463-939B-B30E11137006}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mika_Gachaget" ID="{1C544645-2383-47BF-8E6A-52C818E3652A}" ShortID="17621810">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mika_Gachaget" ID="{8ED97C23-EEC4-438E-B22E-EE5ED442664B}">
+													<Language>SFX</Language>
+													<AudioFile>Mika_Gachaget.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="954381625"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mika_Gachaget" ID="{8ED97C23-EEC4-438E-B22E-EE5ED442664B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mika_Season_Birthday_Player" ID="{9B36C4ED-A3D4-4EB8-9094-C3E937B36268}" ShortID="632927102">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mika_Season_Birthday_Player" ID="{C5F6A1A6-BA3D-4977-855A-07F01621E7F3}">
+													<Language>SFX</Language>
+													<AudioFile>Mika_Season_Birthday_Player.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="686854169"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mika_Season_Birthday_Player" ID="{C5F6A1A6-BA3D-4977-855A-07F01621E7F3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<RandomSequenceContainer Name="TakeDamage" ID="{0AB972F4-C065-4CE7-B75F-84D4DAA20632}" ShortID="467429909">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Mika_Battle_Damage_2" ID="{CA862EE2-F7EC-4437-B6E6-7C9F100EB91F}" ShortID="838919253">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="VoiceAttenuation" ID="{F2E97C90-B979-4868-B159-F0ECF1597C2C}" WorkUnitID="{3E798053-B736-4804-B4B4-6FF919B6290D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Battle_Damage_2" ID="{9F06C272-1E37-41FB-B434-502A82790CCD}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Battle_Damage_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="678817659"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Battle_Damage_2" ID="{9F06C272-1E37-41FB-B434-502A82790CCD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_Battle_Damage_3" ID="{6BC0B6E1-4DDF-4691-AB06-3595FDEE9E20}" ShortID="1045782464">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="VoiceAttenuation" ID="{F2E97C90-B979-4868-B159-F0ECF1597C2C}" WorkUnitID="{3E798053-B736-4804-B4B4-6FF919B6290D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Battle_Damage_3" ID="{7B6B7C6B-B0D1-4A4A-9CD9-23F0E75C4317}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Battle_Damage_3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="575435005"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Battle_Damage_3" ID="{7B6B7C6B-B0D1-4A4A-9CD9-23F0E75C4317}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_Battle_Damage_1" ID="{4FFD9D06-A3EA-4908-8330-AE34329A57B9}" ShortID="111604276">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="VoiceAttenuation" ID="{F2E97C90-B979-4868-B159-F0ECF1597C2C}" WorkUnitID="{3E798053-B736-4804-B4B4-6FF919B6290D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Battle_Damage_1" ID="{0CA5B1CB-27ED-4029-ACF3-665FD8FFC508}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Battle_Damage_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="246848395"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Battle_Damage_1" ID="{0CA5B1CB-27ED-4029-ACF3-665FD8FFC508}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Relationship" ID="{56ED8598-46CA-4991-B353-E30A90134289}" ShortID="138846484">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Mika_Relationship_Up_2" ID="{6DADDF50-F66B-4CC3-AB09-7BB3F2DFDBDF}" ShortID="720520278">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="VoiceAttenuation" ID="{F2E97C90-B979-4868-B159-F0ECF1597C2C}" WorkUnitID="{3E798053-B736-4804-B4B4-6FF919B6290D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Relationship_Up_2" ID="{F611716F-BA95-486E-9F82-7545B498E453}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Relationship_Up_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="265827945"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Relationship_Up_2" ID="{F611716F-BA95-486E-9F82-7545B498E453}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_Relationship_Up_1" ID="{B8C552C9-D1B1-4D61-8B5B-DB6DD4CA6B02}" ShortID="588708439">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="VoiceAttenuation" ID="{F2E97C90-B979-4868-B159-F0ECF1597C2C}" WorkUnitID="{3E798053-B736-4804-B4B4-6FF919B6290D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Relationship_Up_1" ID="{CA971641-0E89-499E-84AA-59F76FA939FB}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Relationship_Up_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="630433528"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Relationship_Up_1" ID="{CA971641-0E89-499E-84AA-59F76FA939FB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_Relationship_Up_3" ID="{ACA3D8FB-921B-4360-95E6-203C87936E70}" ShortID="76154694">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="VoiceAttenuation" ID="{F2E97C90-B979-4868-B159-F0ECF1597C2C}" WorkUnitID="{3E798053-B736-4804-B4B4-6FF919B6290D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Relationship_Up_3" ID="{B4415911-D05B-4B9C-A398-758CABDA05C5}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Relationship_Up_3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="384105798"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Relationship_Up_3" ID="{B4415911-D05B-4B9C-A398-758CABDA05C5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_Relationship_Up_4" ID="{DB3322AC-7934-4B3C-A851-A27974D29409}" ShortID="99515722">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="VoiceAttenuation" ID="{F2E97C90-B979-4868-B159-F0ECF1597C2C}" WorkUnitID="{3E798053-B736-4804-B4B4-6FF919B6290D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Relationship_Up_4" ID="{92415989-A12E-44CF-885F-3C526097CEDF}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Relationship_Up_4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="976839619"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Relationship_Up_4" ID="{92415989-A12E-44CF-885F-3C526097CEDF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Shout" ID="{9B20DA21-B1B8-4F02-BF09-E347449E1692}" ShortID="120681181">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Mika_Battle_Shout_1" ID="{9D857DA8-AD59-4A05-B960-0831E5A34585}" ShortID="112618135">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="VoiceAttenuation" ID="{F2E97C90-B979-4868-B159-F0ECF1597C2C}" WorkUnitID="{3E798053-B736-4804-B4B4-6FF919B6290D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Battle_Shout_1" ID="{4E4E799A-ABA0-499F-BDF5-4240B82706F6}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Battle_Shout_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="929967474"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Battle_Shout_1" ID="{4E4E799A-ABA0-499F-BDF5-4240B82706F6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_Battle_Shout_2" ID="{FCC52024-A544-4CF7-9541-D67701E54525}" ShortID="716853396">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="VoiceAttenuation" ID="{F2E97C90-B979-4868-B159-F0ECF1597C2C}" WorkUnitID="{3E798053-B736-4804-B4B4-6FF919B6290D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Battle_Shout_2" ID="{6920143A-7F2C-433A-83D4-26A8E1E80EFE}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Battle_Shout_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="954762156"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Battle_Shout_2" ID="{6920143A-7F2C-433A-83D4-26A8E1E80EFE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_Battle_Shout_3" ID="{00EEE0CC-7B08-4839-BD03-B381745BFB9A}" ShortID="711922065">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="VoiceAttenuation" ID="{F2E97C90-B979-4868-B159-F0ECF1597C2C}" WorkUnitID="{3E798053-B736-4804-B4B4-6FF919B6290D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Battle_Shout_3" ID="{4404B240-A536-4E38-A89D-4CDCF9249C26}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Battle_Shout_3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="874437314"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Battle_Shout_3" ID="{4404B240-A536-4E38-A89D-4CDCF9249C26}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Spawn" ID="{3E353510-BF80-444B-B659-5BD35AA745B5}" ShortID="455426083">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Mika_Battle_In_1" ID="{714243B3-719C-47F6-9EC6-11490EE2F886}" ShortID="176555937">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="VoiceAttenuation" ID="{F2E97C90-B979-4868-B159-F0ECF1597C2C}" WorkUnitID="{3E798053-B736-4804-B4B4-6FF919B6290D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Battle_In_1" ID="{9DFD96A7-DBC0-48C1-A555-ED1E47BFD440}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Battle_In_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="180282542"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Battle_In_1" ID="{9DFD96A7-DBC0-48C1-A555-ED1E47BFD440}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_Battle_In_2" ID="{C616C3C4-8752-4A1F-9C93-BE2FA9704C0D}" ShortID="647357620">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="VoiceAttenuation" ID="{F2E97C90-B979-4868-B159-F0ECF1597C2C}" WorkUnitID="{3E798053-B736-4804-B4B4-6FF919B6290D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Battle_In_2" ID="{9CFB2242-CF19-46B2-8F2B-9586299ED1CA}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Battle_In_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="428511511"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Battle_In_2" ID="{9CFB2242-CF19-46B2-8F2B-9586299ED1CA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_Tactic_In_2" ID="{428EACC9-4E30-4A40-9F78-A0CC77DB4BD3}" ShortID="291105357">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="VoiceAttenuation" ID="{F2E97C90-B979-4868-B159-F0ECF1597C2C}" WorkUnitID="{3E798053-B736-4804-B4B4-6FF919B6290D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Tactic_In_2" ID="{07A56E25-1240-447D-9FBE-66073BF104FE}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Tactic_In_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="728423781"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Tactic_In_2" ID="{07A56E25-1240-447D-9FBE-66073BF104FE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_Tactic_In_1" ID="{8F2580FB-4D86-4A36-B91D-565FE42A4B6B}" ShortID="96212786">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="VoiceAttenuation" ID="{F2E97C90-B979-4868-B159-F0ECF1597C2C}" WorkUnitID="{3E798053-B736-4804-B4B4-6FF919B6290D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Tactic_In_1" ID="{640153A4-1137-4AEB-BBF6-FEA6AB94F04A}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Tactic_In_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1051035778"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Tactic_In_1" ID="{640153A4-1137-4AEB-BBF6-FEA6AB94F04A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Victory" ID="{1F1EB0B7-07BE-43F6-AA84-143538DAFB94}" ShortID="180489468">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Mika_Battle_Victory_1" ID="{6C2F0B7E-F2BE-41A0-A839-74E8DB02AEEA}" ShortID="759988290">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="VoiceAttenuation" ID="{F2E97C90-B979-4868-B159-F0ECF1597C2C}" WorkUnitID="{3E798053-B736-4804-B4B4-6FF919B6290D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Battle_Victory_1" ID="{74885277-E44B-4629-A5F2-07ED1391CDEA}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Battle_Victory_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="642877079"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Battle_Victory_1" ID="{74885277-E44B-4629-A5F2-07ED1391CDEA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_Battle_Victory_2" ID="{9E34A92C-A11B-4F65-A89C-F4F713AE9B3D}" ShortID="214661914">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="VoiceAttenuation" ID="{F2E97C90-B979-4868-B159-F0ECF1597C2C}" WorkUnitID="{3E798053-B736-4804-B4B4-6FF919B6290D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Battle_Victory_2" ID="{10677BBC-2500-4639-B21C-4E91B5D0BED0}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Battle_Victory_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="324011760"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Battle_Victory_2" ID="{10677BBC-2500-4639-B21C-4E91B5D0BED0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_Tactic_Victory_2" ID="{40E000AB-8008-4E6E-8A33-6C39DEC6C8D3}" ShortID="595256901">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="VoiceAttenuation" ID="{F2E97C90-B979-4868-B159-F0ECF1597C2C}" WorkUnitID="{3E798053-B736-4804-B4B4-6FF919B6290D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Tactic_Victory_2" ID="{8C165233-7D4F-4681-A834-2948748CAAA4}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Tactic_Victory_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="685730933"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Tactic_Victory_2" ID="{8C165233-7D4F-4681-A834-2948748CAAA4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_Tactic_Victory_1" ID="{588049FA-20DD-4EA0-9E2E-F690788F8EEF}" ShortID="804189486">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="VoiceAttenuation" ID="{F2E97C90-B979-4868-B159-F0ECF1597C2C}" WorkUnitID="{3E798053-B736-4804-B4B4-6FF919B6290D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_Tactic_Victory_1" ID="{B5263F24-3326-4B76-89B3-EFCE7E9AA68E}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Tactic_Victory_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="323448604"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_Tactic_Victory_1" ID="{B5263F24-3326-4B76-89B3-EFCE7E9AA68E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="TeleporterStart" ID="{C9B71973-32DB-40DE-A80D-1FC75EF9D05B}" ShortID="78035449">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Mika_ExSkill_3" ID="{8E146D52-6AF8-4D9A-9464-419824D8EFBF}" ShortID="963055677">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="VoiceAttenuation" ID="{F2E97C90-B979-4868-B159-F0ECF1597C2C}" WorkUnitID="{3E798053-B736-4804-B4B4-6FF919B6290D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_ExSkill_3" ID="{23BD9F38-A8F7-44B0-B071-3694488B9AB0}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_ExSkill_3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="983423489"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_ExSkill_3" ID="{23BD9F38-A8F7-44B0-B071-3694488B9AB0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_ExSkill_Level_3" ID="{DEAC06E6-7926-46C5-9B55-40E3774D4610}" ShortID="86915424">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="VoiceAttenuation" ID="{F2E97C90-B979-4868-B159-F0ECF1597C2C}" WorkUnitID="{3E798053-B736-4804-B4B4-6FF919B6290D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_ExSkill_Level_3" ID="{3FBD9577-F4B3-4187-91FA-A618B6D902A9}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_ExSkill_Level_3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="599641301"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_ExSkill_Level_3" ID="{3FBD9577-F4B3-4187-91FA-A618B6D902A9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_ExSkill_Level_1" ID="{BE01B162-D92E-4A29-B0C9-6803D5BBC861}" ShortID="1047597869">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="VoiceAttenuation" ID="{F2E97C90-B979-4868-B159-F0ECF1597C2C}" WorkUnitID="{3E798053-B736-4804-B4B4-6FF919B6290D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_ExSkill_Level_1" ID="{6BC881E7-F6DA-4D85-A829-ABB1F36FF2CA}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_ExSkill_Level_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="289562937"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_ExSkill_Level_1" ID="{6BC881E7-F6DA-4D85-A829-ABB1F36FF2CA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_ExSkill_2" ID="{B1B603AA-F483-48E4-B49C-107828208B48}" ShortID="219922125">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="VoiceAttenuation" ID="{F2E97C90-B979-4868-B159-F0ECF1597C2C}" WorkUnitID="{3E798053-B736-4804-B4B4-6FF919B6290D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_ExSkill_2" ID="{59391ABA-99B8-4CB2-904A-AF2950E2B114}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_ExSkill_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="820305996"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Mika_Relationship_Up_1" ID="{8C8EA0EB-0028-4E71-B93E-7CCF35DA9762}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Relationship_Up_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="630433528"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Mika_Relationship_Up_2" ID="{05A12B3C-806A-49B3-BE65-0C5EBB870479}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Relationship_Up_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="265827945"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Mika_Relationship_Up_3" ID="{5866331A-BFDE-43F4-969F-02AADE572F30}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Relationship_Up_3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="384105798"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Mika_Relationship_Up_4" ID="{BFF3E65A-F9EB-48E0-9346-5A05560DCBF1}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_Relationship_Up_4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="976839619"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_ExSkill_2" ID="{59391ABA-99B8-4CB2-904A-AF2950E2B114}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_ExSkill_Level_2" ID="{CCC3F27A-5022-4FE9-99C3-F7DD37207912}" ShortID="486026910">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="VoiceAttenuation" ID="{F2E97C90-B979-4868-B159-F0ECF1597C2C}" WorkUnitID="{3E798053-B736-4804-B4B4-6FF919B6290D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_ExSkill_Level_2" ID="{7377AF3F-8839-42B6-BA48-7CF9EAEC4BD5}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_ExSkill_Level_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="17381855"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_ExSkill_Level_2" ID="{7377AF3F-8839-42B6-BA48-7CF9EAEC4BD5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mika_ExSkill_1" ID="{E5BBB816-F6F7-4FC9-9256-8B65F87FA2B7}" ShortID="65489551">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="VoiceAttenuation" ID="{F2E97C90-B979-4868-B159-F0ECF1597C2C}" WorkUnitID="{3E798053-B736-4804-B4B4-6FF919B6290D}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A21120D5-6DDA-4EDD-9D85-EA5AE4FCA017}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7F97908-457C-4546-9B0A-83DB6ADCC141}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mika_ExSkill_1" ID="{1F589B10-3819-45C3-BEB8-4929D1FF6E56}">
+															<Language>SFX</Language>
+															<AudioFile>Mika_ExSkill_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="15367594"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mika_ExSkill_1" ID="{1F589B10-3819-45C3-BEB8-4929D1FF6E56}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</ActorMixer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

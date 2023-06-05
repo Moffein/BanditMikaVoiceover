@@ -1,0 +1,73 @@
+Event	ID	Name			Wwise Object Path	Notes
+	87074861	Play_BanditMika_Victory			\Default Work Unit\Play_BanditMika_Victory	
+	266116783	Play_BanditMika_Lobby_Newyear			\Default Work Unit\Play_BanditMika_Lobby_Newyear	
+	401255723	Play_BanditMika_Lobby_Halloween			\Default Work Unit\Play_BanditMika_Lobby_Halloween	
+	676018366	Play_BanditMika_Lobby_bday			\Default Work Unit\Play_BanditMika_Lobby_bday	
+	1052801219	Play_BanditMika_Lobby			\Default Work Unit\Play_BanditMika_Lobby	
+	1079394546	Play_BanditMika_ReceiveHealing			\Default Work Unit\Play_BanditMika_ReceiveHealing	
+	1290520480	Play_BanditMika_TacticalAction			\Default Work Unit\Play_BanditMika_TacticalAction	
+	1294892787	Play_BanditMika_AcquireScepter			\Default Work Unit\Play_BanditMika_AcquireScepter	
+	1330986192	Play_BanditMika_ShrineFail			\Default Work Unit\Play_BanditMika_ShrineFail	
+	1739883086	Play_BanditMika_TitleDrop			\Default Work Unit\Play_BanditMika_TitleDrop	
+	1898747423	Play_BanditMika_Blocked			\Default Work Unit\Play_BanditMika_Blocked	
+	1925043659	Play_BanditMika_Lobby_xmas			\Default Work Unit\Play_BanditMika_Lobby_xmas	
+	1962106517	Play_BanditMika_Buffed			\Default Work Unit\Play_BanditMika_Buffed	
+	2029314289	Play_BanditMika_CommonSkill			\Default Work Unit\Play_BanditMika_CommonSkill	
+	2033946939	Play_BanditMika_TakeDamage			\Default Work Unit\Play_BanditMika_TakeDamage	
+	2086949666	Play_BanditMika_Spawn			\Default Work Unit\Play_BanditMika_Spawn	
+	2679203187	Play_BanditMika_TeleporterStart			\Default Work Unit\Play_BanditMika_TeleporterStart	
+	2973651972	Play_BanditMika_Shout			\Default Work Unit\Play_BanditMika_Shout	
+	3067365303	Play_BanditMika_BadItem			\Default Work Unit\Play_BanditMika_BadItem	
+	3369095736	Play_BanditMika_BuffSelf			\Default Work Unit\Play_BanditMika_BuffSelf	
+	4228164063	Play_BanditMika_FindLegendary			\Default Work Unit\Play_BanditMika_FindLegendary	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3673881719	Volume_SFX			\Default Work Unit\Volume_SFX	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	7600788	Mika_LogIn_2	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_LogIn_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Lobby\Mika_LogIn_2		422072
+	15367594	Mika_ExSkill_1	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_ExSkill_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\TeleporterStart\Mika_ExSkill_1		372032
+	17381855	Mika_ExSkill_Level_2	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_ExSkill_Level_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\TeleporterStart\Mika_ExSkill_Level_2		177464
+	120849010	Mika_Battle_Defense_1	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Battle_Defense_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Mika_Battle_Defense_1		194986
+	124718722	Mika_CommonSkill	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_CommonSkill_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Mika_CommonSkill		113254
+	180282542	Mika_Battle_In_1	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Battle_In_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Spawn\Mika_Battle_In_1		195398
+	180435408	Mika_Season_NewYear	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Season_NewYear_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Mika_Season_NewYear		714014
+	181191708	Mika_Lobby_1	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Lobby_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Lobby\Mika_Lobby_1		1418790
+	246848395	Mika_Battle_Damage_1	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Battle_Damage_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\TakeDamage\Mika_Battle_Damage_1		84794
+	254517794	Mika_Lobby_5	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Lobby_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Lobby\Mika_Lobby_5		553902
+	265827945	Mika_Relationship_Up_2	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Relationship_Up_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Relationship\Mika_Relationship_Up_2		761466
+	289562937	Mika_ExSkill_Level_1	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_ExSkill_Level_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\TeleporterStart\Mika_ExSkill_Level_1		149768
+	316360396	Mika_Battle_Recovery_1	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Battle_Recovery_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Mika_Battle_Recovery_1		74682
+	323448604	Mika_Tactic_Victory_1	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Tactic_Victory_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Victory\Mika_Tactic_Victory_1		356922
+	324011760	Mika_Battle_Victory_2	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Battle_Victory_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Victory\Mika_Battle_Victory_2		138480
+	370460325	Mika_Title	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Title_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Mika_Title		164880
+	384105798	Mika_Relationship_Up_3	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Relationship_Up_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Relationship\Mika_Relationship_Up_3		466112
+	428511511	Mika_Battle_In_2	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Battle_In_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Spawn\Mika_Battle_In_2		172642
+	493269790	Mika_Lobby_3	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Lobby_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Lobby\Mika_Lobby_3		459762
+	526753950	Mika_Formation_Select	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Formation_Select_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Mika_Formation_Select		257256
+	575435005	Mika_Battle_Damage_3	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Battle_Damage_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\TakeDamage\Mika_Battle_Damage_3		88910
+	585911945	Mika_Season_Xmas	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Season_Xmas_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Mika_Season_Xmas		1213814
+	599641301	Mika_ExSkill_Level_3	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_ExSkill_Level_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\TeleporterStart\Mika_ExSkill_Level_3		158648
+	613008783	Mika_Lobby_2	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Lobby_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Lobby\Mika_Lobby_2		812916
+	630433528	Mika_Relationship_Up_1	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Relationship_Up_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Relationship\Mika_Relationship_Up_1		1085276
+	642877079	Mika_Battle_Victory_1	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Battle_Victory_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Victory\Mika_Battle_Victory_1		141420
+	673715338	Mika_LogIn_1	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_LogIn_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Lobby\Mika_LogIn_1		315584
+	678817659	Mika_Battle_Damage_2	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Battle_Damage_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\TakeDamage\Mika_Battle_Damage_2		120956
+	678843914	Mika_Season_Birthday	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Season_Birthday_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Mika_Season_Birthday		1187354
+	685730933	Mika_Tactic_Victory_2	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Tactic_Victory_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Victory\Mika_Tactic_Victory_2		165410
+	711303193	Mika_Cafe_monolog_2	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Cafe_monolog_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Mika_Cafe_monolog_2		374090
+	728423781	Mika_Tactic_In_2	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Tactic_In_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Spawn\Mika_Tactic_In_2		282480
+	813798986	Mika_Season_Halloween	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Season_Halloween_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Mika_Season_Halloween		854958
+	820305996	Mika_ExSkill_2	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_ExSkill_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\TeleporterStart\Mika_ExSkill_2		299532
+	826127979	Mika_Battle_BuffSelf_1	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Battle_BuffSelf_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Mika_Battle_BuffSelf_1		169938
+	840225805	Mika_Battle_Buffed_1	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Battle_Buffed_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Mika_Battle_Buffed_1		108198
+	874437314	Mika_Battle_Shout_3	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Battle_Shout_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Shout\Mika_Battle_Shout_3		89028
+	876722264	Mika_Lobby_4	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Lobby_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Lobby\Mika_Lobby_4		445474
+	929967474	Mika_Battle_Shout_1	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Battle_Shout_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Shout\Mika_Battle_Shout_1		68566
+	954762156	Mika_Battle_Shout_2	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Battle_Shout_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Shout\Mika_Battle_Shout_2		78562
+	961138296	Mika_ExWeapon_Get	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_ExWeapon_Get_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Mika_ExWeapon_Get		1652226
+	968586974	Mika_Battle_TacticalAction_1	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Battle_TacticalAction_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Mika_Battle_TacticalAction_1		170936
+	976839619	Mika_Relationship_Up_4	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Relationship_Up_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Relationship\Mika_Relationship_Up_4		569190
+	983423489	Mika_ExSkill_3	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_ExSkill_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\TeleporterStart\Mika_ExSkill_3		197220
+	1051035778	Mika_Tactic_In_1	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Tactic_In_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Spawn\Mika_Tactic_In_1		188636
+

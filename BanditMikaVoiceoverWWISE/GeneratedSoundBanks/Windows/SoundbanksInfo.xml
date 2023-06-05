@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="497355340" Language="SFX" Hash="2175110024">
+			<ObjectPath>\SoundBanks\Default Work Unit\BanditMikaSoundbank</ObjectPath>
+			<ShortName>BanditMikaSoundbank</ShortName>
+			<Path>BanditMikaSoundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1294892787" Name="Play_BanditMika_AcquireScepter" ObjectPath="\Events\Default Work Unit\Play_BanditMika_AcquireScepter">
+					<IncludedMemoryFiles>
+						<File Id="961138296" Language="SFX">
+							<ShortName>Mika_ExWeapon_Get.wav</ShortName>
+							<Path>SFX\Mika_ExWeapon_Get_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3067365303" Name="Play_BanditMika_BadItem" ObjectPath="\Events\Default Work Unit\Play_BanditMika_BadItem">
+					<IncludedMemoryFiles>
+						<File Id="711303193" Language="SFX">
+							<ShortName>Mika_Cafe_monolog_2.wav</ShortName>
+							<Path>SFX\Mika_Cafe_monolog_2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1898747423" Name="Play_BanditMika_Blocked" ObjectPath="\Events\Default Work Unit\Play_BanditMika_Blocked">
+					<IncludedMemoryFiles>
+						<File Id="120849010" Language="SFX">
+							<ShortName>Mika_Battle_Defense_1.wav</ShortName>
+							<Path>SFX\Mika_Battle_Defense_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1962106517" Name="Play_BanditMika_Buffed" ObjectPath="\Events\Default Work Unit\Play_BanditMika_Buffed">
+					<IncludedMemoryFiles>
+						<File Id="840225805" Language="SFX">
+							<ShortName>Mika_Battle_Buffed_1.wav</ShortName>
+							<Path>SFX\Mika_Battle_Buffed_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3369095736" Name="Play_BanditMika_BuffSelf" ObjectPath="\Events\Default Work Unit\Play_BanditMika_BuffSelf">
+					<IncludedMemoryFiles>
+						<File Id="826127979" Language="SFX">
+							<ShortName>Mika_Battle_BuffSelf_1.wav</ShortName>
+							<Path>SFX\Mika_Battle_BuffSelf_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2029314289" Name="Play_BanditMika_CommonSkill" ObjectPath="\Events\Default Work Unit\Play_BanditMika_CommonSkill">
+					<IncludedMemoryFiles>
+						<File Id="124718722" Language="SFX">
+							<ShortName>Mika_CommonSkill.wav</ShortName>
+							<Path>SFX\Mika_CommonSkill_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4228164063" Name="Play_BanditMika_FindLegendary" ObjectPath="\Events\Default Work Unit\Play_BanditMika_FindLegendary">
+					<IncludedMemoryFiles>
+						<File Id="265827945" Language="SFX">
+							<ShortName>Mika_Relationship_Up_2.wav</ShortName>
+							<Path>SFX\Mika_Relationship_Up_2_10C4C929.wem</Path>
+						</File>
+						<File Id="384105798" Language="SFX">
+							<ShortName>Mika_Relationship_Up_3.wav</ShortName>
+							<Path>SFX\Mika_Relationship_Up_3_10C4C929.wem</Path>
+						</File>
+						<File Id="630433528" Language="SFX">
+							<ShortName>Mika_Relationship_Up_1.wav</ShortName>
+							<Path>SFX\Mika_Relationship_Up_1_10C4C929.wem</Path>
+						</File>
+						<File Id="976839619" Language="SFX">
+							<ShortName>Mika_Relationship_Up_4.wav</ShortName>
+							<Path>SFX\Mika_Relationship_Up_4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1052801219" Name="Play_BanditMika_Lobby" ObjectPath="\Events\Default Work Unit\Play_BanditMika_Lobby">
+					<IncludedMemoryFiles>
+						<File Id="7600788" Language="SFX">
+							<ShortName>Mika_LogIn_2.wav</ShortName>
+							<Path>SFX\Mika_LogIn_2_10C4C929.wem</Path>
+						</File>
+						<File Id="181191708" Language="SFX">
+							<ShortName>Mika_Lobby_1.wav</ShortName>
+							<Path>SFX\Mika_Lobby_1_10C4C929.wem</Path>
+						</File>
+						<File Id="254517794" Language="SFX">
+							<ShortName>Mika_Lobby_5.wav</ShortName>
+							<Path>SFX\Mika_Lobby_5_10C4C929.wem</Path>
+						</File>
+						<File Id="493269790" Language="SFX">
+							<ShortName>Mika_Lobby_3.wav</ShortName>
+							<Path>SFX\Mika_Lobby_3_10C4C929.wem</Path>
+						</File>
+						<File Id="613008783" Language="SFX">
+							<ShortName>Mika_Lobby_2.wav</ShortName>
+							<Path>SFX\Mika_Lobby_2_10C4C929.wem</Path>
+						</File>
+						<File Id="673715338" Language="SFX">
+							<ShortName>Mika_LogIn_1.wav</ShortName>
+							<Path>SFX\Mika_LogIn_1_10C4C929.wem</Path>
+						</File>
+						<File Id="876722264" Language="SFX">
+							<ShortName>Mika_Lobby_4.wav</ShortName>
+							<Path>SFX\Mika_Lobby_4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="676018366" Name="Play_BanditMika_Lobby_bday" ObjectPath="\Events\Default Work Unit\Play_BanditMika_Lobby_bday">
+					<IncludedMemoryFiles>
+						<File Id="678843914" Language="SFX">
+							<ShortName>Mika_Season_Birthday.wav</ShortName>
+							<Path>SFX\Mika_Season_Birthday_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="401255723" Name="Play_BanditMika_Lobby_Halloween" ObjectPath="\Events\Default Work Unit\Play_BanditMika_Lobby_Halloween">
+					<IncludedMemoryFiles>
+						<File Id="813798986" Language="SFX">
+							<ShortName>Mika_Season_Halloween.wav</ShortName>
+							<Path>SFX\Mika_Season_Halloween_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="266116783" Name="Play_BanditMika_Lobby_Newyear" ObjectPath="\Events\Default Work Unit\Play_BanditMika_Lobby_Newyear">
+					<IncludedMemoryFiles>
+						<File Id="180435408" Language="SFX">
+							<ShortName>Mika_Season_NewYear.wav</ShortName>
+							<Path>SFX\Mika_Season_NewYear_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1925043659" Name="Play_BanditMika_Lobby_xmas" ObjectPath="\Events\Default Work Unit\Play_BanditMika_Lobby_xmas">
+					<IncludedMemoryFiles>
+						<File Id="585911945" Language="SFX">
+							<ShortName>Mika_Season_Xmas.wav</ShortName>
+							<Path>SFX\Mika_Season_Xmas_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1079394546" Name="Play_BanditMika_ReceiveHealing" ObjectPath="\Events\Default Work Unit\Play_BanditMika_ReceiveHealing">
+					<IncludedMemoryFiles>
+						<File Id="316360396" Language="SFX">
+							<ShortName>Mika_Battle_Recovery_1.wav</ShortName>
+							<Path>SFX\Mika_Battle_Recovery_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2973651972" Name="Play_BanditMika_Shout" ObjectPath="\Events\Default Work Unit\Play_BanditMika_Shout">
+					<IncludedMemoryFiles>
+						<File Id="874437314" Language="SFX">
+							<ShortName>Mika_Battle_Shout_3.wav</ShortName>
+							<Path>SFX\Mika_Battle_Shout_3_10C4C929.wem</Path>
+						</File>
+						<File Id="929967474" Language="SFX">
+							<ShortName>Mika_Battle_Shout_1.wav</ShortName>
+							<Path>SFX\Mika_Battle_Shout_1_10C4C929.wem</Path>
+						</File>
+						<File Id="954762156" Language="SFX">
+							<ShortName>Mika_Battle_Shout_2.wav</ShortName>
+							<Path>SFX\Mika_Battle_Shout_2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1330986192" Name="Play_BanditMika_ShrineFail" ObjectPath="\Events\Default Work Unit\Play_BanditMika_ShrineFail">
+					<IncludedMemoryFiles>
+						<File Id="526753950" Language="SFX">
+							<ShortName>Mika_Formation_Select.wav</ShortName>
+							<Path>SFX\Mika_Formation_Select_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2086949666" Name="Play_BanditMika_Spawn" ObjectPath="\Events\Default Work Unit\Play_BanditMika_Spawn">
+					<IncludedMemoryFiles>
+						<File Id="180282542" Language="SFX">
+							<ShortName>Mika_Battle_In_1.wav</ShortName>
+							<Path>SFX\Mika_Battle_In_1_10C4C929.wem</Path>
+						</File>
+						<File Id="428511511" Language="SFX">
+							<ShortName>Mika_Battle_In_2.wav</ShortName>
+							<Path>SFX\Mika_Battle_In_2_10C4C929.wem</Path>
+						</File>
+						<File Id="728423781" Language="SFX">
+							<ShortName>Mika_Tactic_In_2.wav</ShortName>
+							<Path>SFX\Mika_Tactic_In_2_10C4C929.wem</Path>
+						</File>
+						<File Id="1051035778" Language="SFX">
+							<ShortName>Mika_Tactic_In_1.wav</ShortName>
+							<Path>SFX\Mika_Tactic_In_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1290520480" Name="Play_BanditMika_TacticalAction" ObjectPath="\Events\Default Work Unit\Play_BanditMika_TacticalAction">
+					<IncludedMemoryFiles>
+						<File Id="968586974" Language="SFX">
+							<ShortName>Mika_Battle_TacticalAction_1.wav</ShortName>
+							<Path>SFX\Mika_Battle_TacticalAction_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2033946939" Name="Play_BanditMika_TakeDamage" ObjectPath="\Events\Default Work Unit\Play_BanditMika_TakeDamage">
+					<IncludedMemoryFiles>
+						<File Id="246848395" Language="SFX">
+							<ShortName>Mika_Battle_Damage_1.wav</ShortName>
+							<Path>SFX\Mika_Battle_Damage_1_10C4C929.wem</Path>
+						</File>
+						<File Id="575435005" Language="SFX">
+							<ShortName>Mika_Battle_Damage_3.wav</ShortName>
+							<Path>SFX\Mika_Battle_Damage_3_10C4C929.wem</Path>
+						</File>
+						<File Id="678817659" Language="SFX">
+							<ShortName>Mika_Battle_Damage_2.wav</ShortName>
+							<Path>SFX\Mika_Battle_Damage_2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2679203187" Name="Play_BanditMika_TeleporterStart" ObjectPath="\Events\Default Work Unit\Play_BanditMika_TeleporterStart">
+					<IncludedMemoryFiles>
+						<File Id="15367594" Language="SFX">
+							<ShortName>Mika_ExSkill_1.wav</ShortName>
+							<Path>SFX\Mika_ExSkill_1_10C4C929.wem</Path>
+						</File>
+						<File Id="17381855" Language="SFX">
+							<ShortName>Mika_ExSkill_Level_2.wav</ShortName>
+							<Path>SFX\Mika_ExSkill_Level_2_10C4C929.wem</Path>
+						</File>
+						<File Id="289562937" Language="SFX">
+							<ShortName>Mika_ExSkill_Level_1.wav</ShortName>
+							<Path>SFX\Mika_ExSkill_Level_1_10C4C929.wem</Path>
+						</File>
+						<File Id="599641301" Language="SFX">
+							<ShortName>Mika_ExSkill_Level_3.wav</ShortName>
+							<Path>SFX\Mika_ExSkill_Level_3_10C4C929.wem</Path>
+						</File>
+						<File Id="820305996" Language="SFX">
+							<ShortName>Mika_ExSkill_2.wav</ShortName>
+							<Path>SFX\Mika_ExSkill_2_10C4C929.wem</Path>
+						</File>
+						<File Id="983423489" Language="SFX">
+							<ShortName>Mika_ExSkill_3.wav</ShortName>
+							<Path>SFX\Mika_ExSkill_3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1739883086" Name="Play_BanditMika_TitleDrop" ObjectPath="\Events\Default Work Unit\Play_BanditMika_TitleDrop">
+					<IncludedMemoryFiles>
+						<File Id="370460325" Language="SFX">
+							<ShortName>Mika_Title.wav</ShortName>
+							<Path>SFX\Mika_Title_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="87074861" Name="Play_BanditMika_Victory" ObjectPath="\Events\Default Work Unit\Play_BanditMika_Victory">
+					<IncludedMemoryFiles>
+						<File Id="323448604" Language="SFX">
+							<ShortName>Mika_Tactic_Victory_1.wav</ShortName>
+							<Path>SFX\Mika_Tactic_Victory_1_10C4C929.wem</Path>
+						</File>
+						<File Id="324011760" Language="SFX">
+							<ShortName>Mika_Battle_Victory_2.wav</ShortName>
+							<Path>SFX\Mika_Battle_Victory_2_10C4C929.wem</Path>
+						</File>
+						<File Id="642877079" Language="SFX">
+							<ShortName>Mika_Battle_Victory_1.wav</ShortName>
+							<Path>SFX\Mika_Battle_Victory_1_10C4C929.wem</Path>
+						</File>
+						<File Id="685730933" Language="SFX">
+							<ShortName>Mika_Tactic_Victory_2.wav</ShortName>
+							<Path>SFX\Mika_Tactic_Victory_2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="3673881719" Name="Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Volume_SFX"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="263542888">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

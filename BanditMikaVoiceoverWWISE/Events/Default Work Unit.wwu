@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{60EC7AF9-5DDD-4B80-A1C7-5A175B1EFA68}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{60EC7AF9-5DDD-4B80-A1C7-5A175B1EFA68}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_BanditMika_Lobby_xmas" ID="{744A2D10-EA1B-4747-83AE-4AA6469282B1}">
+					<ChildrenList>
+						<Action Name="" ID="{F011C33C-A50B-4D68-99C7-BC9E88F97EF6}" ShortID="603107419">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mika_Season_Xmas" ID="{B887DA32-70B7-44A2-AD27-B551F16DBCA4}" WorkUnitID="{BA838EF2-62B4-44D6-A3AE-5A62D343EDFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BanditMika_Lobby_bday" ID="{AB85689D-406D-4896-AACE-392F86F3E113}">
+					<ChildrenList>
+						<Action Name="" ID="{9F489EC0-6106-4190-998C-7B7300DC1426}" ShortID="758785081">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mika_Season_Birthday" ID="{66EE5379-5216-4D8A-B0E2-6E095F1312D1}" WorkUnitID="{BA838EF2-62B4-44D6-A3AE-5A62D343EDFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BanditMika_Lobby_Halloween" ID="{77FAFB3F-B334-4F5C-A70B-965F6EB1CA34}">
+					<ChildrenList>
+						<Action Name="" ID="{5425BAAD-3187-44FD-9788-B26708D0394E}" ShortID="644327225">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mika_Season_Halloween" ID="{D883DCF4-B664-4BE0-B21A-34B149680979}" WorkUnitID="{BA838EF2-62B4-44D6-A3AE-5A62D343EDFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BanditMika_Lobby_Newyear" ID="{396BBFCE-FD4A-4CE4-A44D-881E0CBF7C80}">
+					<ChildrenList>
+						<Action Name="" ID="{8300FD22-236D-45B6-A953-F9C101E2D36A}" ShortID="562583146">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mika_Season_NewYear" ID="{3BF04A00-6D3C-4F3F-A143-35420CD51E98}" WorkUnitID="{BA838EF2-62B4-44D6-A3AE-5A62D343EDFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BanditMika_TitleDrop" ID="{908C811D-42EC-4F29-940A-D09F85401D75}">
+					<ChildrenList>
+						<Action Name="" ID="{4418A2FC-40DE-4921-9A46-272EE6B57B4A}" ShortID="615894415">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mika_Title" ID="{E3A820E1-5C08-4067-9149-B7813848A890}" WorkUnitID="{BA838EF2-62B4-44D6-A3AE-5A62D343EDFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BanditMika_Lobby" ID="{7763E6F7-6C4F-4961-9850-08754ABA9D8B}">
+					<ChildrenList>
+						<Action Name="" ID="{8C9FB689-9C6A-4EDC-94A2-F040AB9F7108}" ShortID="789993145">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lobby" ID="{FBC85B72-FB77-4F72-B04B-FC3D9B78F14F}" WorkUnitID="{BA838EF2-62B4-44D6-A3AE-5A62D343EDFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BanditMika_TakeDamage" ID="{44E51EE7-DDBA-4F03-A821-D91A9F0583A9}">
+					<ChildrenList>
+						<Action Name="" ID="{AB784C72-D56E-440C-86A0-FE182FE5AF9D}" ShortID="77651413">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TakeDamage" ID="{0AB972F4-C065-4CE7-B75F-84D4DAA20632}" WorkUnitID="{BA838EF2-62B4-44D6-A3AE-5A62D343EDFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BanditMika_Blocked" ID="{210BCBCC-A631-47D5-9C12-54204D1AE5C8}">
+					<ChildrenList>
+						<Action Name="" ID="{074D6B10-4BBC-42EA-83A3-16E2A7E58BF6}" ShortID="66902014">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mika_Battle_Defense_1" ID="{70C77582-30CA-4A34-8270-586D9521F916}" WorkUnitID="{BA838EF2-62B4-44D6-A3AE-5A62D343EDFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BanditMika_FindLegendary" ID="{A2A2BEE0-08C9-4DCC-866E-2110AC811430}">
+					<ChildrenList>
+						<Action Name="" ID="{306113E1-1B15-4151-99FB-0ED6185F85F8}" ShortID="481444126">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Relationship" ID="{56ED8598-46CA-4991-B353-E30A90134289}" WorkUnitID="{BA838EF2-62B4-44D6-A3AE-5A62D343EDFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BanditMika_Shout" ID="{865AEFBF-B712-4873-B6D4-9BD358A0157D}">
+					<ChildrenList>
+						<Action Name="" ID="{8924C658-6971-4783-B872-B70594BBD3EB}" ShortID="978750959">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shout" ID="{9B20DA21-B1B8-4F02-BF09-E347449E1692}" WorkUnitID="{BA838EF2-62B4-44D6-A3AE-5A62D343EDFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BanditMika_Spawn" ID="{50DBBA39-8A59-4545-8DB3-8E7836B6E1AF}">
+					<ChildrenList>
+						<Action Name="" ID="{D6363BF6-61C1-44F0-BE1B-B15B91179DE0}" ShortID="774168930">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spawn" ID="{3E353510-BF80-444B-B659-5BD35AA745B5}" WorkUnitID="{BA838EF2-62B4-44D6-A3AE-5A62D343EDFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BanditMika_Victory" ID="{D77EA660-6567-48A1-B852-BC7265037F05}">
+					<ChildrenList>
+						<Action Name="" ID="{67758B2D-0B44-46D4-A9DF-05A6EAB75E5D}" ShortID="848290851">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Victory" ID="{1F1EB0B7-07BE-43F6-AA84-143538DAFB94}" WorkUnitID="{BA838EF2-62B4-44D6-A3AE-5A62D343EDFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BanditMika_AcquireScepter" ID="{83E627BE-39D9-4F76-B1EA-9F22046370C6}">
+					<ChildrenList>
+						<Action Name="" ID="{D48BB8B9-E369-4B30-A7B5-301148815F07}" ShortID="832042976">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mika_ExWeapon_Get" ID="{A571A29F-69F9-4F81-93A0-B2476D159E56}" WorkUnitID="{BA838EF2-62B4-44D6-A3AE-5A62D343EDFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BanditMika_TeleporterStart" ID="{2BC5E413-4446-4CBB-B566-D4975DF91085}">
+					<ChildrenList>
+						<Action Name="" ID="{E6A67909-0AD0-4927-BB25-58C791246E6C}" ShortID="14455837">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TeleporterStart" ID="{C9B71973-32DB-40DE-A80D-1FC75EF9D05B}" WorkUnitID="{BA838EF2-62B4-44D6-A3AE-5A62D343EDFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BanditMika_BadItem" ID="{0EB58442-9BA0-420E-B82D-7178E971A41B}">
+					<ChildrenList>
+						<Action Name="" ID="{DCBAB66D-7011-406B-8861-380BC4DB095E}" ShortID="183760673">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mika_Cafe_monolog_2" ID="{7D3A0F85-D458-41EB-92E8-02BE2B18FC10}" WorkUnitID="{BA838EF2-62B4-44D6-A3AE-5A62D343EDFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BanditMika_ShrineFail" ID="{7348E226-3EE4-4CD8-A551-8F3C06199E6A}">
+					<ChildrenList>
+						<Action Name="" ID="{1885E6F3-374D-4130-8AB1-E88C18D93F6E}" ShortID="790706938">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mika_Formation_Select" ID="{A2A6CC78-2CBF-4DFB-B72B-CE50B2FF3FAB}" WorkUnitID="{BA838EF2-62B4-44D6-A3AE-5A62D343EDFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BanditMika_TacticalAction" ID="{B00357DE-B2FC-4485-BBB0-B9D912DBC468}">
+					<ChildrenList>
+						<Action Name="" ID="{F4226C60-59FF-48CA-99C8-9A9B330AB636}" ShortID="30346989">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mika_Battle_TacticalAction_1" ID="{44235EE3-1F03-42D5-B4B8-B87F4314BFDE}" WorkUnitID="{BA838EF2-62B4-44D6-A3AE-5A62D343EDFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BanditMika_CommonSkill" ID="{875AF761-CB22-47F1-B505-77F644DD567E}">
+					<ChildrenList>
+						<Action Name="" ID="{80A5371D-4106-4696-8BAE-B32DDE493B81}" ShortID="720130580">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mika_CommonSkill" ID="{9F372156-88E6-44EA-9163-1ADC406C8AB0}" WorkUnitID="{BA838EF2-62B4-44D6-A3AE-5A62D343EDFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BanditMika_ReceiveHealing" ID="{67AD05E0-C4E1-42C6-8C87-9E6C11CF1F1C}">
+					<ChildrenList>
+						<Action Name="" ID="{82AF19C5-0D55-4379-ABF1-DF6279544567}" ShortID="691670105">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mika_Battle_Recovery_1" ID="{EEAEF666-EAA7-404E-8AA9-70D0A5C77341}" WorkUnitID="{BA838EF2-62B4-44D6-A3AE-5A62D343EDFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BanditMika_Buffed" ID="{2763A0C3-91A4-42BC-B74F-05F24A3A5A03}">
+					<ChildrenList>
+						<Action Name="" ID="{CECAA274-D838-492D-BB5B-6A7BAD204F1C}" ShortID="210494963">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mika_Battle_Buffed_1" ID="{60FEB76B-B06A-416A-8C0B-3D671B3299B5}" WorkUnitID="{BA838EF2-62B4-44D6-A3AE-5A62D343EDFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BanditMika_BuffSelf" ID="{7CA2CD18-5044-4E52-AF7E-4EDC5968A531}">
+					<ChildrenList>
+						<Action Name="" ID="{6025DCBE-FE97-403F-8EC6-51571C59DFD9}" ShortID="436455272">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mika_Battle_BuffSelf_1" ID="{2F94CE4E-010E-4AA3-8CE8-1315AF1632F8}" WorkUnitID="{BA838EF2-62B4-44D6-A3AE-5A62D343EDFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
