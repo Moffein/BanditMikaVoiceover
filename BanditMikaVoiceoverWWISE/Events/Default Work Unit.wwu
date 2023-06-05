@@ -234,6 +234,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_BanditMika_Defeat" ID="{23D3256E-AC6C-413F-BB8B-7E7F132B62C2}">
+					<ChildrenList>
+						<Action Name="" ID="{410C3BAB-30EF-485C-8111-9CD754F16885}" ShortID="866964950">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Defeat" ID="{221D1842-BA59-4C02-8944-2F7DBD4AC6BE}" WorkUnitID="{BA838EF2-62B4-44D6-A3AE-5A62D343EDFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

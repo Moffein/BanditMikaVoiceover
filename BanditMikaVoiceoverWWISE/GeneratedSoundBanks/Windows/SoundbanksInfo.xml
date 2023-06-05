@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="497355340" Language="SFX" Hash="2175110024">
+		<SoundBank Id="497355340" Language="SFX" Hash="2719299668">
 			<ObjectPath>\SoundBanks\Default Work Unit\BanditMikaSoundbank</ObjectPath>
 			<ShortName>BanditMikaSoundbank</ShortName>
 			<Path>BanditMikaSoundbank.bnk</Path>
@@ -61,6 +61,22 @@
 						<File Id="124718722" Language="SFX">
 							<ShortName>Mika_CommonSkill.wav</ShortName>
 							<Path>SFX\Mika_CommonSkill_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2879427464" Name="Play_BanditMika_Defeat" ObjectPath="\Events\Default Work Unit\Play_BanditMika_Defeat">
+					<IncludedMemoryFiles>
+						<File Id="85948828" Language="SFX">
+							<ShortName>Mika_Battle_Retire.wav</ShortName>
+							<Path>SFX\Mika_Battle_Retire_10C4C929.wem</Path>
+						</File>
+						<File Id="286773621" Language="SFX">
+							<ShortName>Mika_Tactic_Defeat_2.wav</ShortName>
+							<Path>SFX\Mika_Tactic_Defeat_2_10C4C929.wem</Path>
+						</File>
+						<File Id="517067559" Language="SFX">
+							<ShortName>Mika_Tactic_Defeat_1.wav</ShortName>
+							<Path>SFX\Mika_Tactic_Defeat_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
