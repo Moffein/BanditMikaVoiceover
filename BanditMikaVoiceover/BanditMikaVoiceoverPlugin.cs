@@ -1,7 +1,7 @@
 ﻿using BanditMikaVoiceover.Components;
+using BanditMikaVoiceover.Modules;
 using BepInEx;
 using BepInEx.Configuration;
-using R2API;
 using RoR2;
 using RoR2.Audio;
 using System;
@@ -15,9 +15,7 @@ namespace BanditMikaVoiceover
 {
     [BepInDependency("com.rune580.riskofoptions", BepInDependency.DependencyFlags.SoftDependency)]
     [BepInDependency("com.Foxyz.BanditMika")]
-    [BepInDependency("com.bepis.r2api")]
     [BepInPlugin("com.Schale.BanditMikaVoiceover", "BanditMikaVoiceover", "0.1.0")]
-    [R2API.Utils.R2APISubmoduleDependency(nameof(SoundAPI), nameof(ContentAddition))]
     public class BanditMikaVoiceoverPlugin : BaseUnityPlugin
     {
         public static ConfigEntry<bool> enableVoicelines;
@@ -27,19 +25,14 @@ namespace BanditMikaVoiceover
 
         public void Awake()
         {
+            Files.PluginInfo = this.Info;
             BaseVoiceoverComponent.Init();
             RoR2.RoR2Application.onLoad += OnLoad;
+            new Content().Initialize();
 
             using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("BanditMikaVoiceover.banditmikavoiceoverbundle"))
             {
                 assetBundle = AssetBundle.LoadFromStream(stream);
-            }
-
-            using (var bankStream = Assembly.GetExecutingAssembly().GetManifestResourceStream("BanditMikaVoiceover.BanditMikaSoundbank.bnk"))
-            {
-                var bytes = new byte[bankStream.Length];
-                bankStream.Read(bytes, 0, bytes.Length);
-                R2API.SoundAPI.SoundBanks.Add(bytes);
             }
 
             InitNSE();
@@ -49,6 +42,11 @@ namespace BanditMikaVoiceover
             {
                 RiskOfOptionsCompat();
             }
+        }
+
+        private void Start()
+        {
+            SoundBanks.Init();
         }
 
         [MethodImpl(MethodImplOptions.NoInlining | MethodImplOptions.NoOptimization)]
@@ -152,19 +150,19 @@ namespace BanditMikaVoiceover
         {
             BanditMikaVoiceoverComponent.nseBlock = ScriptableObject.CreateInstance<NetworkSoundEventDef>();
             BanditMikaVoiceoverComponent.nseBlock.eventName = "Play_BanditMika_Blocked";
-            R2API.ContentAddition.AddNetworkSoundEventDef(BanditMikaVoiceoverComponent.nseBlock);
+            Content.networkSoundEventDefs.Add(BanditMikaVoiceoverComponent.nseBlock);
 
             BanditMikaVoiceoverComponent.nseShrineFail = ScriptableObject.CreateInstance<NetworkSoundEventDef>();
             BanditMikaVoiceoverComponent.nseShrineFail.eventName = "Play_BanditMika_ShrineFail";
-            R2API.ContentAddition.AddNetworkSoundEventDef(BanditMikaVoiceoverComponent.nseShrineFail);
+            Content.networkSoundEventDefs.Add(BanditMikaVoiceoverComponent.nseShrineFail);
 
             BanditMikaVoiceoverComponent.nseShout = ScriptableObject.CreateInstance<NetworkSoundEventDef>();
             BanditMikaVoiceoverComponent.nseShout.eventName = "Play_BanditMika_Shout";
-            R2API.ContentAddition.AddNetworkSoundEventDef(BanditMikaVoiceoverComponent.nseShout);
+            Content.networkSoundEventDefs.Add(BanditMikaVoiceoverComponent.nseShout);
 
             BanditMikaVoiceoverComponent.nseSpecial = ScriptableObject.CreateInstance<NetworkSoundEventDef>();
             BanditMikaVoiceoverComponent.nseSpecial.eventName = "Play_BanditMika_TacticalAction";
-            R2API.ContentAddition.AddNetworkSoundEventDef(BanditMikaVoiceoverComponent.nseSpecial);
+            Content.networkSoundEventDefs.Add(BanditMikaVoiceoverComponent.nseSpecial);
         }
 
 
