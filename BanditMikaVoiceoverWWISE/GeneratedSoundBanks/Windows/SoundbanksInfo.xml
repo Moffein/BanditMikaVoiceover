@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="497355340" Language="SFX" Hash="2719299668">
+		<SoundBank Id="497355340" Language="SFX" Hash="1865899470">
 			<ObjectPath>\SoundBanks\Default Work Unit\BanditMikaSoundbank</ObjectPath>
 			<ShortName>BanditMikaSoundbank</ShortName>
 			<Path>BanditMikaSoundbank.bnk</Path>
@@ -97,6 +97,26 @@
 						<File Id="976839619" Language="SFX">
 							<ShortName>Mika_Relationship_Up_4.wav</ShortName>
 							<Path>SFX\Mika_Relationship_Up_4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3957180482" Name="Play_BanditMika_LevelUp" ObjectPath="\Events\Default Work Unit\Play_BanditMika_LevelUp">
+					<IncludedMemoryFiles>
+						<File Id="79881269" Language="SFX">
+							<ShortName>Mika_Growup_2.wav</ShortName>
+							<Path>SFX\Mika_Growup_2_10C4C929.wem</Path>
+						</File>
+						<File Id="137677625" Language="SFX">
+							<ShortName>Mika_Growup_4.wav</ShortName>
+							<Path>SFX\Mika_Growup_4_10C4C929.wem</Path>
+						</File>
+						<File Id="538516653" Language="SFX">
+							<ShortName>Mika_Growup_1.wav</ShortName>
+							<Path>SFX\Mika_Growup_1_10C4C929.wem</Path>
+						</File>
+						<File Id="1055651403" Language="SFX">
+							<ShortName>Mika_Growup_3.wav</ShortName>
+							<Path>SFX\Mika_Growup_3_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

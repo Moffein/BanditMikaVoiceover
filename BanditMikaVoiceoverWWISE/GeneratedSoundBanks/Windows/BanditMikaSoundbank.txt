@@ -20,6 +20,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2973651972	Play_BanditMika_Shout			\Default Work Unit\Play_BanditMika_Shout	
 	3067365303	Play_BanditMika_BadItem			\Default Work Unit\Play_BanditMika_BadItem	
 	3369095736	Play_BanditMika_BuffSelf			\Default Work Unit\Play_BanditMika_BuffSelf	
+	3957180482	Play_BanditMika_LevelUp			\Default Work Unit\Play_BanditMika_LevelUp	
 	4228164063	Play_BanditMika_FindLegendary			\Default Work Unit\Play_BanditMika_FindLegendary	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
@@ -29,9 +30,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	7600788	Mika_LogIn_2	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_LogIn_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Lobby\Mika_LogIn_2		422072
 	15367594	Mika_ExSkill_1	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_ExSkill_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\TeleporterStart\Mika_ExSkill_1		372032
 	17381855	Mika_ExSkill_Level_2	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_ExSkill_Level_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\TeleporterStart\Mika_ExSkill_Level_2		177464
+	79881269	Mika_Growup_2	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Growup_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Levelup\Mika_Growup_2		899762
 	85948828	Mika_Battle_Retire	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Battle_Retire_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Defeat\Mika_Battle_Retire		223210
 	120849010	Mika_Battle_Defense_1	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Battle_Defense_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Mika_Battle_Defense_1		194986
 	124718722	Mika_CommonSkill	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_CommonSkill_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Mika_CommonSkill		113254
+	137677625	Mika_Growup_4	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Growup_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Levelup\Mika_Growup_4		744354
 	180282542	Mika_Battle_In_1	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Battle_In_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Spawn\Mika_Battle_In_1		195398
 	180435408	Mika_Season_NewYear	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Season_NewYear_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Mika_Season_NewYear		714014
 	181191708	Mika_Lobby_1	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Lobby_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Lobby\Mika_Lobby_1		1418790
@@ -49,6 +52,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	493269790	Mika_Lobby_3	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Lobby_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Lobby\Mika_Lobby_3		459762
 	517067559	Mika_Tactic_Defeat_1	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Tactic_Defeat_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Defeat\Mika_Tactic_Defeat_1		212390
 	526753950	Mika_Formation_Select	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Formation_Select_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Mika_Formation_Select		257256
+	538516653	Mika_Growup_1	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Growup_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Levelup\Mika_Growup_1		663916
 	575435005	Mika_Battle_Damage_3	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Battle_Damage_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\TakeDamage\Mika_Battle_Damage_3		88910
 	585911945	Mika_Season_Xmas	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Season_Xmas_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Mika_Season_Xmas		1213814
 	599641301	Mika_ExSkill_Level_3	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_ExSkill_Level_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\TeleporterStart\Mika_ExSkill_Level_3		158648
@@ -74,4 +78,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	976839619	Mika_Relationship_Up_4	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Relationship_Up_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Relationship\Mika_Relationship_Up_4		569190
 	983423489	Mika_ExSkill_3	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_ExSkill_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\TeleporterStart\Mika_ExSkill_3		197220
 	1051035778	Mika_Tactic_In_1	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Tactic_In_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Spawn\Mika_Tactic_In_1		188636
+	1055651403	Mika_Growup_3	C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\.cache\Windows\SFX\Mika_Growup_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Voiceover\Levelup\Mika_Growup_3		554430
 

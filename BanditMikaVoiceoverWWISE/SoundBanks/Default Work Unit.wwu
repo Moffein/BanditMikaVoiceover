@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="BanditMikaSoundbank" ID="{E1DBB0D8-1A55-45E7-859D-8FA213DF6B59}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_BanditMika_LevelUp" ID="{EC1C724F-D4F5-4111-97DC-9302939B7433}" WorkUnitID="{60EC7AF9-5DDD-4B80-A1C7-5A175B1EFA68}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_BanditMika_Defeat" ID="{23D3256E-AC6C-413F-BB8B-7E7F132B62C2}" WorkUnitID="{60EC7AF9-5DDD-4B80-A1C7-5A175B1EFA68}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_BanditMika_BadItem" ID="{0EB58442-9BA0-420E-B82D-7178E971A41B}" WorkUnitID="{60EC7AF9-5DDD-4B80-A1C7-5A175B1EFA68}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_BanditMika_Buffed" ID="{2763A0C3-91A4-42BC-B74F-05F24A3A5A03}" WorkUnitID="{60EC7AF9-5DDD-4B80-A1C7-5A175B1EFA68}" Origin="Manual" Filter="7"/>

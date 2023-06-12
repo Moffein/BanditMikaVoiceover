@@ -5,7 +5,7 @@
 	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\Switches\Default Work Unit.wwu" DateLow="1685914931" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\States\Default Work Unit.wwu" DateLow="1685914931" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1685914931" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\SoundBanks\Default Work Unit.wwu" DateLow="1685914931" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\SoundBanks\Default Work Unit.wwu" DateLow="1685931123" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\Queries\Factory Queries.wwu" DateLow="1646551843" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\Queries\Default Work Unit.wwu" DateLow="1685914930" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\Presets\Factory Spatial Audio.wwu" DateLow="1646551843" DateHigh="0"/>
@@ -14,8 +14,8 @@
 	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\Mixing Sessions\Default Work Unit.wwu" DateLow="1685914931" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1685914931" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1685914931" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\Game Parameters\Default Work Unit.wwu" DateLow="1685914931" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\Events\Default Work Unit.wwu" DateLow="1685914931" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\Game Parameters\Default Work Unit.wwu" DateLow="1685915127" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\Events\Default Work Unit.wwu" DateLow="1685931119" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\Effects\Factory Effects.wwu" DateLow="1646551843" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\Effects\Default Work Unit.wwu" DateLow="1685914931" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1685914930" DateHigh="0"/>
@@ -23,7 +23,8 @@
 	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\Conversion Settings\Default Work Unit.wwu" DateLow="1685914930" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\Control Surface Sessions\Default Work Unit.wwu" DateLow="1685914930" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\BanditMikaVoiceoverWWISE.wproj" DateLow="1685914930" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\BanditMikaVoiceoverWWISE.Node.wsettings" DateLow="1685931758" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\Audio Devices\Default Work Unit.wwu" DateLow="1685914931" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\Attenuations\Default Work Unit.wwu" DateLow="1685914931" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1685914931" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\Attenuations\Default Work Unit.wwu" DateLow="1685915169" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Node\RoR2 Mods\BanditMikaVoiceover\BanditMikaVoiceoverWWISE\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1685925458" DateHigh="0"/>
 </ValidationCache>
